@@ -14,7 +14,7 @@ CREATE TABLE `users` (
   `password` varchar(256) NOT NULL,
   `name` varchar(100) NOT NULL,
   `lastname` varchar(100) NOT NULL,
-  `timezone_place` varchar(30) NOT NULL DEFAULT 'UTC',
+--`timezone_place` varchar(30) NOT NULL DEFAULT 'UTC',  If you need it  --
   `photo` varchar(255) NOT NULL DEFAULT 'default.png',
   `is_online` int(3) NOT NULL DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
