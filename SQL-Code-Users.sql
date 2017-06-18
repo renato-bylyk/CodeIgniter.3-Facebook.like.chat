@@ -21,7 +21,7 @@ CREATE TABLE `users` (
 
 --
 -- Indexes for dumped tables
---
+-- 
 
 --
 -- Indexes for table `accounts`
