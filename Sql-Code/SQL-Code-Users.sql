@@ -15,13 +15,13 @@ CREATE TABLE `users` (
   `name` varchar(100) NOT NULL,
   `lastname` varchar(100) NOT NULL,
   `timezone_place` varchar(30) NOT NULL DEFAULT 'UTC',
-  `photo` varchar(255) NOT NULL DEFAULT 'default.png',
+  `photo` varchar(255) NOT NULL DEFAULT 'default_photo.png',
   `is_online` int(3) NOT NULL DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Indexes for dumped tables
--- 
+--
 
 --
 -- Indexes for table `accounts`
