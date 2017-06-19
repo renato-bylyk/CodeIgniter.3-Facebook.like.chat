@@ -6,9 +6,9 @@ class Chat extends CI_Controller {
 
 //      ---------------------------------- Chat Switch ---------------------------------------------------------------------
 public function chatswitch()
-
+ 
   	{
-      
+
   		//  -----   the user data can be loaded like this :           -----------------
   		//          $session_data_user = array(
   		//                          'username' => $this->GET_FROM_DataBase->function_Username();
