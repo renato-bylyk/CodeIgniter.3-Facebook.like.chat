@@ -1,0 +1,133 @@
+.chatbox {
+    position: fixed;
+    position:expression("absolute");
+    width: 225px;
+    display:none;
+    z-index: 9999;
+}
+
+.chatboxhead {
+    background-color: #1D1A4F;
+    padding:7px;
+    color: #ffffff;
+    border-top:1px solid white;
+    border-right:1px solid white;
+    border-left:1px solid white;
+}
+
+.chatboxblink {
+    background-color: #176689;
+    border-right:1px solid #176689;
+    border-left:1px solid #176689;
+}
+
+.chatboxcontent {
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    height:200px;
+    overflow-y:auto;
+    overflow-x:auto;
+    padding:5px;
+    border-left:1px solid #cccccc;
+    border-right:1px solid #cccccc;
+    border-bottom:1px solid #eeeeee;
+    background-color: #ffffff;
+    line-height: 1.3em;
+
+}
+
+#kouta {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #333333;
+    height: 430px;
+    overflow-y:auto;
+    overflow-x:auto;
+    padding:7px;
+    border-left:1px solid #cccccc;
+    border-right:1px solid #cccccc;
+    border-bottom:1px solid #eeeeee;
+    background-color: #ffffff;
+    line-height: 1.3em;
+
+
+}
+
+.chatboxinput {
+    padding: 5px;
+    background-color: #ffffff;
+    border-left:1px solid #cccccc;
+    border-right:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+}
+
+.chatboxtextarea {
+    width: 206px;
+    height:44px;
+    padding:3px 0pt 3px 3px;
+    border: 1px solid #eeeeee;
+    margin: 1px;
+    overflow:hidden;
+}
+
+.chatboxtextareaselected {
+    border: 2px solid #4B0082;
+    margin:0;
+}
+
+.chatboxmessage {
+    margin-left:1em;
+    display: block;
+}
+
+.chatboxinfo {
+    margin-left:-1em;
+    color:#666666;
+    float: left;
+    font-size: 9px;
+    width: 100%;
+    display: block;
+}
+
+.chatboxmessagefrom {
+    margin-left:-1em;
+    font-weight: bold;
+    float: left;
+}
+
+.chatboxmessageto {
+    margin-left:-1em;
+    font-weight: bold;
+    float: right;
+}
+
+.chatboxmessagecontent {
+    word-wrap: break-word;
+    text-align: center;
+    float: left;
+    height: 100%;
+    width: 100%;
+    background-color: #dae2e8;
+    padding: 3px;
+    border-radius: 2px 19px 19px 30px;
+    border: 2px solid #1D1A4F;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+.chatboxoptions {
+    float: right;
+}
+
+.chatboxoptions a {
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+.chatboxtitle {
+    float: left;
+}
